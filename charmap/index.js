@@ -1,6 +1,6 @@
 class Charmap {
-  constructor() {
-    this.map = {};
+  constructor(map) {
+    this.map = map || {};
   }
 
   merge(map) {

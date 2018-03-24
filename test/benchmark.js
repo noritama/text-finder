@@ -5,7 +5,7 @@ const gen = require('./gen_words');
 const words = gen.words(10000, 10); // 10文字の文字列を1万ワード
 
 const word = () => {
-  return gen.word(50);
+  return gen.word(100);
 };
 
 (async () => {
