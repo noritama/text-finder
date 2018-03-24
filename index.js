@@ -5,14 +5,17 @@ const getResult = Symbol();
 class TextFinder {
   /**
    * @constructor TextFinder
-   * @param {Charmap} _charmap
+   * @param {Charmap} map
    */
-  constructor(_charmap) {
+  constructor(map) {
+    if (map && !(map instanceof charmap.Charmap)) {
+      map = new charmap.Charmap(map);
+    }
     this.root = {
       isRoot: true,
       length: 0,
     };
-    this.charmap = _charmap;
+    this.charmap = map;
   }
 
   /**

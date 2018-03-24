@@ -32,9 +32,8 @@ const textfinder = require('text-finder');
 ex) lower/upper case(A => a)
 
 ```
-const {TextFinder, Charmap} = require('./');
-const charmap = new Charmap({A: 'a', O: 'o', R: 'r'});
-const textfinder = new TextFinder(charmap);
+const {TextFinder} = require('./');
+const textfinder = new TextFinder({A: 'a', O: 'o', R: 'r'});
 
 (async () => {
   await textfinder.setup(['apple', 'orange', 'remon']);
