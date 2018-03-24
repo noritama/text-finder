@@ -70,8 +70,8 @@ const result = textfinder.find('I like orange and remon.');
 |----------|----------|-----------|------------|
 | Array#indexOf | 54,045 ops/s | 9,600 ops/s | 1,015 ops/s |
 | TextFinder#findOne | 28,787 ops/s | 24,683 ops/s | 12,858 ops/s |
-| TextFinder#find | 28,891 ops/s | 24,301 ops/s | 12,506 ops/s
+| TextFinder#find | 28,891 ops/s | 24,301 ops/s | 12,506 ops/s |
 
 ## LICENSE
 
-MIT LICENSE [LICENSE](LICENSE)|
+MIT LICENSE [LICENSE](LICENSE)
