@@ -1,6 +1,6 @@
 {
   "name": "text-finder",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Searching word in string, faster and flexible.",
   "keywords": [
     "text",
